@@ -1,2 +1,2 @@
-# iec2pi
-Using a Raspberry Pi as a generic IEC hard disk.
+# rpi-utils
+All my common utils, controlled from one repo!
