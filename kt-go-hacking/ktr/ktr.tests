@@ -1,0 +1,23 @@
+clear ALL
+
+setv host.facade 192.168.8.142
+setv host.model 192.168.8.142
+setv avd.file ktghavd.zip
+setv avd.name My Test AVD 4
+setv target.ip 192.168.8.142
+setv target.port 8080
+
+upload avd
+sleep 4
+has command.rsp avd.id
+create instance
+sleep 4
+has command.rsp instance.id
+hasv command.rsp STOPPED
+start instance
+sleep 10
+hasv command.rsp RUNNING
+stop instance
+sleep 4
+hasv command.rsp STOPPED
+exit

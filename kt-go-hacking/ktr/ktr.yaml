@@ -1,0 +1,22 @@
+avd.file: ktghavd.zip
+avd.id: 1hray6ytlclrk
+avd.name: ERROR-1527180673
+capture.id: s15n4cgevgbp
+command.rsp: '{"ins_id":"to1sbj04med4","avd":{"avd_name":"ERROR-1527180673","avd_zip_url":"http://localhost:8002/avds/1hray6ytlclrk/avdzipfile","avd_id":"1hray6ytlclrk"},"timing_scale":1.0,"timing_offset":0,"loopback":false,"runtime_mode":"REQUESTER","ip":"192.168.8.142","port":8080,"number_of_transactions":8,"status":"STOPPED","data_stream_id":"NAF7"}'
+datastream.id: FAN1
+datastream.id.csv: NAF1,NAF2,NAF3,NAF4,NAF5,NAF6,NAF7
+datastream.id.replacement: NAF7
+facade.avd.url: http://localhost:8000/avds
+facade.capture.url: http://localhost:8000/networkcaptures
+facade.instance.url: http://localhost:8000/avdinstances
+header.origin: http://localhost:8000
+host.facade: localhost
+host.model: localhost
+instance.id: to1sbj04med4
+instance.id.csv: 1jew437x3094h,1jylkfma9wl7m,uv93rionkcir,rhdu7jpzu3c2,1ib98kfvoip80,qxqji6i3pfle,to1sbj04med4
+message: avd.file not defined
+model.avd.url: http://localhost:8002
+pcap.file: pcap001-53.pcap
+target.ip: 192.168.8.142
+target.port: '8080'
+test.status: ABORT
